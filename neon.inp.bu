@@ -1,0 +1,9 @@
+memory,200,m
+gprint,orbitals
+
+basis=cc-pVTZ
+
+geometry={ne}
+
+hf
+ccsd(t) 

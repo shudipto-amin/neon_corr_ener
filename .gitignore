@@ -1,0 +1,5 @@
+*.out
+*.xml
+.ipynb_checkpoints/
+outputs/*/j-neon*.o*
+outputs/

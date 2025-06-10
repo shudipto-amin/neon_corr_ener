@@ -1,0 +1,9 @@
+memory,200,m        ! allocate 200 MW of memory
+gprint,orbitals     ! global print option: print orbitals of all methods
+
+basis=$arg_basis     ! basis set provided by argument
+
+geometry={ne}
+
+$calc1                  ! Hartree-Fock calculation
+$calc2
